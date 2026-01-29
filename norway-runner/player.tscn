@@ -1,11 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://l8c0wog72x24"]
+[gd_scene format=3 uid="uid://l8c0wog72x24"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_sh265"]
-size = Vector2(212, 386.5)
 
-[node name="player" type="CharacterBody2D"]
+[node name="player" type="CharacterBody2D" unique_id=185711395]
 position = Vector2(563, 445)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1866346897]
 position = Vector2(3, 5)
 shape = SubResource("RectangleShape2D_sh265")
