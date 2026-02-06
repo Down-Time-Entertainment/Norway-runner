@@ -16,3 +16,11 @@ shape = SubResource("RectangleShape2D_sh265")
 position = Vector2(2.0000076, -0.5000038)
 scale = Vector2(2.0625, 2.7265625)
 texture = ExtResource("1_4flbx")
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sh265"]
+
+[node name="player" type="CharacterBody2D" unique_id=185711395]
+position = Vector2(563, 445)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1866346897]
+position = Vector2(3, 5)
+shape = SubResource("RectangleShape2D_sh265")
